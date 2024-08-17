@@ -1,0 +1,822 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ====================== menu Bar ================== */
+#homepage{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#homepage>.header{
+    height: 9%;
+    width: 100%;
+    background-color:rgb(43,43,43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#homepage>.header>aside{
+    height: 95%;
+    width: 94%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#homepage>.header>aside>.logo{
+    height: 100%;
+    width: 13%;
+    /* background-color:cadetblsue; */
+    display: flex;
+    align-items: center;
+}
+#homepage>.header>aside>.logo>p{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 51px;
+    left: 12rem;
+}
+#homepage>.header>aside>.list{
+    height: 100%;
+    width: 68%;
+   
+}
+#homepage>.header>aside>.list>.ullist>button{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    padding-top: 22px;
+    font-weight:bold;
+}
+#homepage>.header>aside>.contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+#homepage>.header>aside>.contact>.contact1{
+    display: flex;
+    justify-content:center;
+    font-size: 14px;
+    padding-top: 6px;
+    font-family: sans-serif;
+    width: 8rem;
+    /* background-color: rebeccapurple; */
+
+}
+#homepage>.header>aside>.contact>.contact1>.arrow{
+    height: 15px;
+    width: 15px;
+    transform:rotate(90deg);
+    padding-left: 4px;
+    position: relative;
+    left: 5px;
+    /* background-color: blue; */
+}
+#homepage>.header>aside>.contact>.help{
+    height: 20px;
+    width: 30px;
+    /* background-color: cadetblue; */
+    font-size:14px;
+    font-family: sans-serif;
+    /* padding: 10px; */
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+#homepage>.header>aside>.contact>.signin{
+    height: 20px;
+    width: 85px;
+    /* background-color: chocolate; */
+    font-size:14px;
+    font-family: sans-serif;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-left: 25px;
+   
+}
+#homepage>.header>aside>.contact>.signin>.arrow2{
+    height: 15px;
+    width: 15px;
+    transform:rotate(90deg);
+    padding-left: 4px;
+    position: relative;
+    left: 5px;
+    /* background-color: blue; */
+}
+#homepage>.header>aside>.contact>.cart{
+    height: 20px;
+    width: 40px;
+    /* background-color: blueviolet; */
+    padding-left: 20px;
+    padding-top: 6px;
+}
+#search{
+    height: 80px;
+    width: 98.8vw;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search>.search1{
+    height: 100%;
+    width: 96%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* after Comment it */
+#search>.search1>.searchbox{
+    height: 100%;
+    width: 62%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+#search>.search1>.searchbox>form>input{
+    height: 63px;
+    width: 44rem;
+    color: #EBEBEB;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:500;
+    color: white;
+    padding-left: 30px;
+    background-color: rgb(235,235,235);
+}
+#search>.search1>.searchbox>button{
+    height: 63px;
+    width: 180px;
+    background-color: rgb(0,131,140);
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#search>.search1>.pic{
+    padding-top: 4px;   
+}
+
+#mainimg{
+    height: 56%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+}
+#mainimg>.mainimg1{
+    height: 100%;
+    width: 64.5%;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-image: url(./godaddy-menu.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -110px;
+}
+#mainimg>.mainimg1>.com{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height:2;
+    font-weight: bold;
+    padding-top: 33px;
+    padding-left: 38px;
+        
+}
+#mainimg>.mainimg1>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 46.5px;
+    padding-left: 38px;
+    padding-top: 10px;
+}
+#mainimg>.mainimg1>.aslow{
+    padding-left: 38px;
+    line-height: 5;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight:lighter;
+}
+
+#mainimg>.mainimg1>button{
+    margin-left: 38px;
+    margin-bottom: 27px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border-radius: 3px;
+}
+#mainimg>.mainimg1>button:hover{
+    transform: scale(1.023);
+}
+#mainimg>.mainimg1>.prices{
+    padding-left: 38px;
+    font-family: sans-serif;
+    font-size: 12.5px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#mainimg>.createyour{
+    height: 100%;
+    width: 26%;
+    background-color: rgb(253,233,219);
+    border-radius: 5px;
+}
+#mainimg>.createyour>.websites{
+    font-size: 15px;
+    font-family: var(--ux-1q87e65, var(--ux-p4wcd9, sans-serif));
+    padding-top: 44px;
+    padding-left: 40px;
+}
+#mainimg>.createyour>h2{
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 17px;
+    font-family:  "Times", "Times New Roman", serif;
+}
+
+#mainimg>.createyour>.button{
+    display: flex;
+    padding-bottom: 29px;
+}
+#mainimg>.createyour>.button>button{
+    margin-left:  40px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-top: 22px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+#mainimg>.createyour>.button>button:hover{
+    transform: scale(1.023); 
+}
+#mainimg>.createyour>.button>p{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+}
+#mainimg>.createyour>.learn{
+    padding-left: 40px;
+}
+#mainimg>.createyour>.nocharge{
+    padding-left: 40px;
+    font-size:15px;
+}
+#homepage>.moretools{
+    /* display: flex;
+    justify-content: center; */
+
+}
+#homepage>.moretools>h2{
+    text-align: center;
+    font-size: 58px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 78px;
+}
+#homepage>.moretools>p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 16px;
+}
+
+/* <!-- ============================= 3rd Colums ===================== --> */
+/* =================same to next image ====================== */
+summary{
+    height: 110vh;
+    width: 100%;
+    /* background-color:azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+summary>.professional{
+    padding-right: 75px;
+}
+summary>.professional>h3{
+    font-size:33px ;
+    font-family: Times, "Times New Roman", serif;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+summary>.professional>.showcustomer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-weight: 400;  
+}
+summary>.professional>.aslow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+summary>.professional>div{
+    display: flex;
+    align-items: center;
+}
+summary>.professional>div>.price{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 10px;
+    font-weight: 600;
+}
+summary>.professional>div>.peruser{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+summary>.professional>.explore1{
+    height: 48px;
+    width: 12.3rem;
+    background-color: white;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+summary>.professional>.explore1>button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+summary>.professional>.explore1>.makearrow{
+
+}
+summary>.professional>.explore1>.makearrow>.arrow{
+    height: 10px;
+    width: 10px;
+    /* background-color: red; */
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-42deg);
+    margin-left: 15px;
+}
+summary>.professional>.explore1>.makearrow>.line{
+    height: 2px;
+    width: 15px;
+    background-color: black;
+    position: relative;
+    left: 11px;
+    top: 6px;
+}
+
+
+/* ===================== same to ============================ */
+summary>.web>h3{
+    font-size:33px ;
+    font-family: Times, "Times New Roman", serif;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+summary>.web>.whether{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-weight: 400; 
+}
+summary>.web>.aslow2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+summary>.web>div{
+    display: flex;
+    align-items: center;
+}
+summary>.web>div>.prices{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 10px;
+    font-weight: 600;
+}
+summary>.web>div>.perusermon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+summary>.web>.explore2{
+    height: 48px;
+    width: 12.3rem;
+    background-color: white;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+summary>.web>.explore2>button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+summary>.web>.explore2>.makearrow{
+
+}
+summary>.web>.explore2>.makearrow>.arrow{
+    height: 10px;
+    width: 10px;
+    /* background-color: red; */
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-42deg);
+    margin-left: 15px;
+}
+summary>.web>.explore2>.makearrow>.line{
+    height: 2px;
+    width: 15px;
+    background-color: black;
+    position: relative;
+    left: 11px;
+    top: 6px;
+}
+
+/* <!-- ============================= 3rd Colums ===================== --> */
+
+/* ==========================  Women  =============================== */
+#women{
+    height: 480px;
+    width: 100%;
+    background-image: url(./godaddy-women.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -110px;
+}
+#women>.suraiya{
+    padding-top: 69px;
+    padding-left: 67px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#women>.women2>.womenimg{
+    display: flex;
+    position: absolute;
+    left: 50rem;
+    top:100.999rem; 
+}
+#women>.women2>.womenimg>p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    margin-left: 6px;
+}
+
+#women>.women2>.paragraph>h3{
+    font-size: 54px;
+    padding-left: 50rem;
+    padding-top: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+#women>.women2>.paragraph>p{
+    font-size: 16px;
+    padding-left: 50rem;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+#women>.women2>.paragraph>button{
+    margin-left: 50rem;
+    margin-top: 30px;
+    background-color: black;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#women>.women2>.paragraph>button:hover{
+    transform: scale(1.023);
+}
+/* ================================= disclaimers ========================== */
+figure{
+    height: 300px;
+    width: 100%;
+    /* background-color: chocolate; */
+}
+figure>.disclaimers{
+    text-decoration: underline;
+    padding-top: 65px;
+    padding-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure>.third{
+    padding-top: 20px;
+    padding-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure>.need{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(245,247,248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 48px;
+}
+figure>.offer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(43,43,43);
+    display: flex;
+    align-items: center ;
+}
+figure>.offer>.flogo{
+    padding-left: 60px;
+    filter: invert(55%) brightness(96%) sepia(36%) ;
+    padding-right: 15px;
+}
+figure>.offer>.arrow{
+    height: 10px;
+    width: 10px;
+    /* background-color:white ; */
+    margin-right: 15px;
+    /* border: 2px solid white; */
+    border: 2.3px solid rgb(98, 94, 94);
+    border-top: none;
+    border-left: none;
+    transform: rotate(-40deg);
+}
+figure>.offer>.offer1{
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* ================ footer ================ */
+#footer{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}
+#footer>h4{
+    color: rgb(104, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+#footer>.imgtext{
+    height: 50px;
+    width: 70%;
+    padding-left: 98px;
+    padding-top: 20px;
+    display: flex;
+
+}
+#footer>.imgtext>p{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+    font-weight: normal;
+}
+#footer>.imgtext>.arrow{
+    height: 17px;
+    width: 17px;
+    margin-top: 14.5px;
+    /* margin-left: 10px; */
+    border-right: 3.5px solid #9255d8;
+    border-bottom: 3.5px solid #5c2798;
+    transform: rotate(-45deg);
+}
+#footer>.imgtext>.line{
+    height: 3.5px;
+    width: 45px;
+    background-color: rgb(126, 77, 198);
+    /* margin-left: 5px; */
+    margin-top: 21.5px;
+    position: relative;
+    left: 18px;
+}
+#division{
+    height: 0.7px;
+    width: 100%;
+    background-color: aliceblue;
+}
+#footermenu{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 22px;
+    padding-left: 70px;
+    display: flex;
+}
+
+#footermenu>.aboutgodaddy, .support, .resources, .partnerpro,.account,.shopping{
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footermenu>.aboutgodaddy ul{
+    color: white;
+    height: 70%;
+    width: 300px;
+    /* background-color: red; */
+    margin-top: 8px;
+    list-style: none;
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footermenu> .support ul{
+    color: white;
+    height: 70%;
+    width: 300px;
+    /* background-color: plum; */
+    margin-top: 8px;
+    list-style: none;
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footermenu>.support ul{
+    height: 70%;
+    width: 230px;
+    margin-top: 8px; 
+    list-style: none;
+    /* background-color: #5c2798; */
+    color: white;
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footermenu>.resources ul{
+    height: 70%;
+    width: 280px;
+    margin-top: 8px; 
+    list-style: none;
+    color: white;
+    /* background-color: blue; */
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footermenu>.partnerpro ul{
+    height: 70%;
+    width: 240px;
+    margin-top: 8px; 
+    list-style: none;
+    color: white;
+    /* background-color: #9255d8; */
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footermenu>.account ul{
+    height: 70%;
+    width: 220px;
+    /* background-color:aquamarine; */
+    list-style: none;
+    line-height: 38px;
+    margin-top: 8px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+#footermenu>.shopping ul{
+    height: 70%;
+    width: 180px;
+    margin-top: 8px; 
+    list-style: none;
+    color: white;
+    /* background-color: red; */
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#footermenu>.imglogopart2{
+    height: 10vh;
+    width: 80%;
+    /* background-color: #5c2798; */
+    position: absolute;
+    z-index: 1;
+    top: 184rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#footermenu>.imglogopart2>.imglogopart{
+    padding-top: 10px;
+}
+#footermenu>.imglogopart2>.indiaeng{
+    height: 100%;
+    width: 10rem;
+    /* background-color: #EBEBEB; */
+    margin-left: 20px;
+
+}
+#footermenu>.imglogopart2>.indiaeng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footermenu>.imglogopart2>.indiaeng>.indiaenglish{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+#footermenu>.imglogopart2>.indiaeng>.inr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding-left: 29px;
+}
+
+
+
+#bottomimg{
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding-top: 36px;
+    padding-left: 60px;
+    padding-right: 30px;
+
+}
+#bottomimg>.para>.para1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-bottom: 16px;
+}
+#bottomimg>.para>.useof{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+#bottomimg>.legal{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-left: 70px;
+}
